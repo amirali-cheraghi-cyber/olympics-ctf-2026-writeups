@@ -1,4 +1,3 @@
-# olympics-ctf-2026-writeups
 # 🛡️ OLYMPICS CTF 2026 — Team Shahin
 
 Technical documentation, challenge write-ups, and competition records from **Team Shahin** during **OLYMPICS CTF 2026**.
