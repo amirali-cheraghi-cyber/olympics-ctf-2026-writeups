@@ -1,227 +1,199 @@
-# 🛡️ OLYMPICS CTF 2026 — Team Shahin
+# 🦅 Team Shahin — OLYMPICS CTF 2026
 
-Technical documentation, challenge write-ups, and competition records from **Team Shahin** during **OLYMPICS CTF 2026**.
-
-This repository documents our participation in the online cybersecurity qualification stage, the challenges we solved, the techniques we used, and our progression to the **in-person Cybersecurity Final**.
-
----
-
-## 🏆 Competition Achievement
-
-### 🇮🇷 4th Place in Iran
-
-**4 / 117 Teams**
-
-### 🌍 International Ranking
-
-**83 / 609 Teams**
-
-### 👤 Individual Score
-
-**AmirAli Cheraghi — 269 Points**
-
-These results were achieved during the online qualification stage of OLYMPICS CTF 2026.
-
-Based on our final ranking, **Team Shahin qualified directly for the in-person Cybersecurity Final**.
+> **Cybersecurity CTF — OLYMPICS Technology 2026**
+> Team Shahin | Online Qualifier → On-site Final
 
 ---
 
-## 👑 Team Shahin
+## 🏆 Competition Result
 
-### Captain
+**Team Shahin** participated in the online cybersecurity qualification round of **OLYMPICS CTF 2026** and achieved a direct qualification to the on-site final based on our ranking.
 
-**AmirAli Cheraghi**
+| Result                        |                             Position |
+| ----------------------------- | -----------------------------------: |
+| 🇮🇷 Iran Ranking             |                  **4th / 117 teams** |
+| 🌍 International Ranking      |                 **83rd / 609 teams** |
+| 👤 Captain's Individual Score |                       **269 points** |
+| 🏁 Qualification              | **Directly qualified for the Final** |
 
-Team Shahin was led by **AmirAli Cheraghi**, who coordinated the team's participation, challenge analysis, technical investigation, and overall competition workflow.
-
-### Team Members — Online Qualification
-
-The following members participated alongside the captain during the **online qualification stage**:
-
-* **Vida Khoshpey** — [GitHub](https://github.com/VidaKhoshpey)
-* **Kumar Swamy** — [GitHub](https://github.com/kumarswamyg2005)
-* **Xuan** — [GitHub](https://github.com/learnerxuan)
-
-The team collaborated throughout the online competition, sharing findings, approaches, and technical analysis while solving challenges under competitive time constraints.
+This result placed Team Shahin among the top-performing teams in the online qualification stage and secured our place in the final competition.
 
 ---
 
-## 🚀 Direct Qualification to the Final
+## 🦅 Team Shahin
 
-Team Shahin achieved **4th place among 117 teams in Iran** during the online qualification stage.
+I participated in the competition as the **Captain of Team Shahin**, coordinating the team's participation throughout the online qualification stage.
 
-This result secured our **direct qualification for the in-person Cybersecurity Final**.
+### Team Members
 
-The final competition is scheduled to take place on:
+The following members participated as part of Team Shahin during the online qualification:
 
-**19 October 2026**
-**27 Mehr 1405**
+* **AmirAli Cheraghi** — Captain
+* **Vida Khoshpey**
+* **Kumar Swamy**
+* **Xuan**
 
-The three team members listed above participated in the online qualification stage but **will not be attending the in-person final**.
+GitHub profiles:
 
-The final-stage results, challenges, analysis, and competition experience will be documented in this repository after the event.
+* [AmirAli Cheraghi](https://github.com/amirali-cheraghi-cyber)
+* [Vida Khoshpey](https://github.com/VIDAKHOSHPEY22)
+* [Kumar Swamy](https://github.com/kumarswamyg2005)
+* [Xuan](https://github.com/learnerxuan)
 
----
-
-## 📊 Competition Results
-
-| Metric                                 |                               Result |
-| -------------------------------------- | -----------------------------------: |
-| 🇮🇷 National Ranking                  |                          **4 / 117** |
-| 🌍 International Ranking               |                         **83 / 609** |
-| 👤 AmirAli Cheraghi — Individual Score |                       **269 points** |
-| 🏆 Qualification                       | **Directly qualified for the Final** |
-| 📅 In-Person Final                     |                  **19 October 2026** |
-
-The rankings represent the performance of **Team Shahin**, while the 269-point figure represents the individual score earned by the team captain.
+The team members listed above participated in the **online qualification stage**. They will not be attending the on-site final.
 
 ---
 
-## 📚 Challenge Write-ups
+## 🧩 Challenge Write-ups
 
-All available challenge reports are organized inside the [`Challenges`](./Challenges) directory.
+The `Challenges/` directory contains our collected write-ups and analysis from the online qualification stage.
 
-Each challenge is documented independently, with the goal of preserving the actual problem-solving process rather than simply recording the final result.
+Each challenge is documented separately, including, where available:
 
-Depending on the challenge, the reports may include:
+* Challenge analysis
+* Initial observations
+* Technical methodology
+* Commands and tools used
+* Reverse engineering / exploitation process
+* Important intermediate findings
+* Flag-recovery methodology
+* Final result
 
-* Initial reconnaissance and analysis
-* File and binary inspection
-* Reverse engineering
-* Cryptographic analysis
-* Shellcode analysis
-* Memory and stack analysis
-* Control-flow investigation
-* Exploitation methodology
-* Custom scripts and tooling
-* Terminal commands and relevant output
-* Reconstructed data
-* Evidence supporting the conclusion
-* Reproduction notes
-* Limitations encountered during analysis
+The purpose of these write-ups is not simply to record the final answers, but to preserve the **technical reasoning and methodology used to solve the challenges**.
 
 ---
 
-## 🔬 Technical Approach
+## 🔐 Selected Technical Work
 
-The primary objective of these write-ups is to document **how a challenge was analyzed and solved**.
+The challenges in this repository cover multiple areas of cybersecurity, including:
 
-Where appropriate, the reports distinguish between information that was directly verified from the provided artifacts and conclusions that were derived through analysis.
+* Reverse Engineering
+* Cryptography
+* Forensics
+* Binary Analysis
+* Shellcode Analysis
+* Web Security
+* Programming and Scripting
+* CTF-oriented problem solving
 
-This is particularly important for challenges involving incomplete binaries, corrupted runtime state, missing emulator environments, or other situations where complete reproduction is not possible.
-
-Rather than presenting an unsupported result as fact, the write-ups document what could be established from the available evidence and clearly identify any remaining uncertainty.
-
----
-
-## 🧩 Example: Incomplete / Runtime-Dependent Challenges
-
-Some challenges could not be completely reproduced after the competition because parts of the original runtime environment or memory state were no longer available.
-
-In such cases, the repository preserves:
-
-1. The original challenge artifacts where available.
-2. The static analysis performed on those artifacts.
-3. Relevant instructions, offsets, and control-flow observations.
-4. Reconstructed strings or data that can be independently verified.
-5. The exact point where missing runtime information prevents complete reproduction.
-
-This approach keeps the write-ups technically honest and useful for future research.
+For example, some challenges required analyzing unusual representations, reconstructing hidden data, tracing program behavior, or identifying misleading/decoy artifacts before reaching the actual solution path.
 
 ---
 
-## 🗂️ Repository Structure
+## 📊 Competition Evidence
 
-```text
-olympics-ctf-2026-writeups/
-│
-├── README.md
-│
-└── Challenges/
-    │
-    ├── Challenge-Name/
-    │   ├── README.md
-    │   └── ...
-    │
-    ├── Challenge-Name/
-    │   ├── README.md
-    │   └── ...
-    │
-    └── ...
-```
+Competition-result screenshots and supporting evidence are maintained separately from the challenge write-ups.
 
-The repository structure is intentionally centered around individual challenges. Each challenge has its own documentation and supporting files where applicable.
+The evidence includes:
+
+1. Team Shahin's competition result and the captain's individual score
+2. Team members
+3. Team ranking in Iran
+4. Total number of teams in Iran
+5. International ranking
+6. Total number of internationally ranked teams
+
+Keeping the competition evidence separately allows the repository to remain organized while preserving the original competition results.
 
 ---
 
-## 🏁 Final Stage Documentation
+## 🏁 On-site Final
 
-The online qualification is only the first part of our OLYMPICS CTF 2026 journey.
+Following our result in the online qualification stage, **Team Shahin qualified directly for the on-site final**.
 
-Following our **4th-place national ranking**, Team Shahin received a direct qualification to the in-person Cybersecurity Final.
+📅 **Final Date:** 19 October 2026
+📍 **Format:** On-site Cybersecurity Final
+🎯 **Qualification:** Direct qualification from the online stage
 
-After the final competition, a dedicated section of this repository will be updated with:
+The team members who participated in the online qualification will not be attending the on-site final.
+
+A separate report covering the final stage will be added to this repository after the competition.
+
+The final report will document:
 
 * Final-stage challenges
-* Technical write-ups
-* Solving methodology
+* Technical analysis
+* Solving methodologies
 * Tools and techniques
-* Team experience
+* Team performance
+* Lessons learned
 * Final competition results
-* Additional observations and lessons learned
-
-This repository will therefore serve as a continuing technical record of Team Shahin's participation throughout the competition.
 
 ---
 
-## 🎯 Purpose of This Repository
+## 📁 Repository Structure
 
-This repository is maintained as a technical record of our participation in OLYMPICS CTF 2026 and as a portfolio of practical cybersecurity work.
+```text
+.
+├── Challenges/
+│   ├── Challenge-01/
+│   │   └── README.md
+│   ├── Challenge-02/
+│   │   └── README.md
+│   ├── Challenge-03/
+│   │   └── README.md
+│   └── ...
+│
+└── README.md
+```
 
-The goals are to:
-
-* Document real-world CTF problem solving
-* Preserve technical research and analysis
-* Improve reverse engineering and exploitation skills
-* Practice systematic security investigation
-* Build reproducible technical documentation
-* Share useful methodologies with the cybersecurity community
-* Maintain a professional record of competition experience
-
-The emphasis is on **technical reasoning, methodology, evidence, and reproducibility** rather than simply collecting flags.
-
----
-
-## 👤 Captain
-
-**AmirAli Cheraghi**
-
-Cybersecurity-focused computer student and CTF participant.
-
-**Role:** Captain — Team Shahin
-**Individual Score:** **269 points**
-**National Ranking:** **4 / 117**
-**International Ranking:** **83 / 609**
+Each challenge has its own directory and technical report, keeping the repository modular and easy to navigate.
 
 ---
 
-## 🔐 Disclaimer
+## 🧠 Approach
 
-All techniques and analyses documented in this repository were performed within the intentionally vulnerable environments provided for **OLYMPICS CTF 2026**.
+Our approach during the qualification focused on understanding the underlying mechanism of each challenge rather than relying solely on trial and error.
 
-The material is published for educational, research, and cybersecurity learning purposes.
+Typical workflow:
+
+```text
+Challenge Reconnaissance
+        ↓
+File / Binary / Service Analysis
+        ↓
+Identify the Vulnerability or Mechanism
+        ↓
+Develop a Hypothesis
+        ↓
+Build a Minimal Test
+        ↓
+Exploit / Decode / Recover
+        ↓
+Validate the Result
+        ↓
+Document the Methodology
+```
+
+This repository therefore serves both as a record of our competition participation and as a technical archive of the methods used during the CTF.
 
 ---
 
-## 🏆 OLYMPICS CTF 2026
+## 🏅 Achievement
 
-**TEAM SHAHIN**
+**Team Shahin — OLYMPICS CTF 2026**
+
+> 🇮🇷 **4th place in Iran — 117 teams**
+> 🌍 **83rd place internationally — 609 teams**
+> 👤 **Captain's individual score: 269 points**
+> 🏁 **Direct qualification to the on-site final**
+
+---
+
+## 📌 Final Status
+
+The online qualification stage has been completed and documented in this repository.
+
+**Next Stage: On-site Final — 19 October 2026**
+
+The results and technical report of the final stage will be added to this repository following the competition.
+
+---
+
+### Team Shahin 🦅
 
 **Captain:** AmirAli Cheraghi
-**Online Qualification:** **4th / 117 in Iran**
-**International Ranking:** **83rd / 609**
-**Individual Score:** **269 points**
-**Final Qualification:** **Direct Qualification**
-**In-Person Final:** **19 October 2026**
+**Competition:** OLYMPICS CTF 2026
+**Stage:** Online Qualification → On-site Final
+**Status:** Qualified
 
-> **Analyze. Exploit. Understand. Document.**
