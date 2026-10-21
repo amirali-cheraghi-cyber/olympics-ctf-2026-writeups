@@ -101,7 +101,7 @@ Keeping the competition evidence separately allows the repository to remain orga
 
 Following our result in the online qualification stage, **Team Shahin qualified directly for the on-site final**.
 
-📅 **Final Date:** 19 October 2026
+📅 **Final Date:** November 2, 2026
 📍 **Format:** On-site Cybersecurity Final
 🎯 **Qualification:** Direct qualification from the online stage
 
